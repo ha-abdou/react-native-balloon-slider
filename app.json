@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "slider",
-    "slug": "slider",
+    "name": "react native balloon slider",
+    "slug": "react-native-balloon-slider",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +22,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Balloon slider",
+    "githubUrl": "https://github.com/ha-abdou/react-native-balloon-slider"
   }
 }

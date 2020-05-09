@@ -26,5 +26,5 @@
     "babel-preset-expo": "~8.1.0",
     "typescript": "~3.8.3"
   },
-  "private": true
+  "private": false
 }

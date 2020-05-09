@@ -8,15 +8,6 @@ export default function App() {
       <BalloonSlider
         startValue={75}
         valueRange={[50, 100]}
-        mainColor="red"
-        secondaryColor="green"
-        backgroundColor="black"
-        onChange={(v) => {
-          //console.log("onChange", v)
-        }}
-        onSelect={(v) => {
-          //console.log("onSelect", v)
-        }}
       />
     </View>
   );
@@ -24,9 +15,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 100,
     flex: 1,
-    width: 200,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
